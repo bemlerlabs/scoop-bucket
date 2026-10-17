@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-  "version": "0.1.0-beta.5",
+  "version": "0.1.0-beta.6",
   "description": "Local-first AI assistant — private, offline, yours (Windows PWA + backend via install.ps1).",
   "homepage": "https://github.com/bemlerlabs/ephe",
   "license": "BUSL-1.1",
-  "notes": "Ephe installs via the repo installer (install.ps1) — the scoop manifest wraps the one-command install. The hash is measured from the v0.1.0-beta.5 source archive.",
-  "url": "https://github.com/bemlerlabs/ephe/archive/refs/tags/v0.1.0-beta.5.zip",
-  "hash": "f19d475aa7f1f1f4134fbb4349c13e1b63ef6de8e38f90a60a80b280310cb201",
-  "extract_dir": "ephe-0.1.0-beta.5",
+  "notes": "Ephe installs via the repo installer (install.ps1) — the scoop manifest wraps the one-command install. The hash is measured from the v0.1.0-beta.6 source archive.",
+  "url": "https://github.com/bemlerlabs/ephe/archive/refs/tags/v0.1.0-beta.6.zip",
+  "hash": "4019c7a16339b74f3fe8e376863931c3e36902744aba31ef58234576b63d84a7",
+  "extract_dir": "ephe-0.1.0-beta.6",
   "installer": {
     "script": [
       "if (Test-Path \"$dir\\install.ps1\") { & \"$dir\\install.ps1\" --desktop } else { Write-Host 'install.ps1 not found' }"
